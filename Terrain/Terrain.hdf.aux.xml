@@ -1,0 +1,534 @@
+<PAMDataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/4/Perimeter">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Description">The Nth row of data represents the perimeter of the Nth tile for this dataset. This row will be a list of float values of length [Tile-Height + Tile-Width + 1]. It will be arranged like this: [Right Edge, Bottom Edge, Lower-Right Corner].</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-9999</MDI>
+          <MDI key="STATISTICS_MEAN">-9999</MDI>
+          <MDI key="STATISTICS_MINIMUM">-9999</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/4/Min-Max">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Columns">Minimum Tile Value (With LR Perim)Maximum Tile Value (With LR Perim)Tile Fraction Nodata</MDI>
+          <MDI key="Row_N">Tile N in this Dataset.</MDI>
+          <MDI key="STATISTICS_MAXIMUM">566.70666503906</MDI>
+          <MDI key="STATISTICS_MEAN">316.73933919271</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">236.12565493069</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/3/Perimeter">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Description">The Nth row of data represents the perimeter of the Nth tile for this dataset. This row will be a list of float values of length [Tile-Height + Tile-Width + 1]. It will be arranged like this: [Right Edge, Bottom Edge, Lower-Right Corner].</MDI>
+          <MDI key="STATISTICS_MAXIMUM">524.18041992188</MDI>
+          <MDI key="STATISTICS_MEAN">-6565.9674348887</MDI>
+          <MDI key="STATISTICS_MINIMUM">-9999</MDI>
+          <MDI key="STATISTICS_STDDEV">4914.2205383545</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/3/Min-Max">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Columns">Minimum Tile Value (With LR Perim)Maximum Tile Value (With LR Perim)Tile Fraction Nodata</MDI>
+          <MDI key="Row_N">Tile N in this Dataset.</MDI>
+          <MDI key="STATISTICS_MAXIMUM">569.35894775391</MDI>
+          <MDI key="STATISTICS_MEAN">305.75951639811</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">224.04724245121</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/2/Perimeter">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Description">The Nth row of data represents the perimeter of the Nth tile for this dataset. This row will be a list of float values of length [Tile-Height + Tile-Width + 1]. It will be arranged like this: [Right Edge, Bottom Edge, Lower-Right Corner].</MDI>
+          <MDI key="STATISTICS_MAXIMUM">551.64556884766</MDI>
+          <MDI key="STATISTICS_MEAN">-3894.8632896379</MDI>
+          <MDI key="STATISTICS_MINIMUM">-9999</MDI>
+          <MDI key="STATISTICS_STDDEV">5171.0706956714</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/2/Min-Max">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Columns">Minimum Tile Value (With LR Perim)Maximum Tile Value (With LR Perim)Tile Fraction Nodata</MDI>
+          <MDI key="Row_N">Tile N in this Dataset.</MDI>
+          <MDI key="STATISTICS_MAXIMUM">570.10760498047</MDI>
+          <MDI key="STATISTICS_MEAN">315.56630565502</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">229.9029782678</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/1/Perimeter">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Description">The Nth row of data represents the perimeter of the Nth tile for this dataset. This row will be a list of float values of length [Tile-Height + Tile-Width + 1]. It will be arranged like this: [Right Edge, Bottom Edge, Lower-Right Corner].</MDI>
+          <MDI key="STATISTICS_MAXIMUM">569.8203125</MDI>
+          <MDI key="STATISTICS_MEAN">-1862.2380666375</MDI>
+          <MDI key="STATISTICS_MINIMUM">-9999</MDI>
+          <MDI key="STATISTICS_STDDEV">4373.0813390088</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/1/Min-Max">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Columns">Minimum Tile Value (With LR Perim)Maximum Tile Value (With LR Perim)Tile Fraction Nodata</MDI>
+          <MDI key="Row_N">Tile N in this Dataset.</MDI>
+          <MDI key="STATISTICS_MAXIMUM">571.65234375</MDI>
+          <MDI key="STATISTICS_MEAN">320.43626268175</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">230.97232510451</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/0/Min-Max">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Columns">Minimum Tile Value (With LR Perim)Maximum Tile Value (With LR Perim)Tile Fraction Nodata</MDI>
+          <MDI key="Row_N">Tile N in this Dataset.</MDI>
+          <MDI key="STATISTICS_MAXIMUM">571.9921875</MDI>
+          <MDI key="STATISTICS_MEAN">321.08654513889</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">230.09425243163</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Stitches">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">4897772.4158806</MDI>
+          <MDI key="STATISTICS_MEAN">1576037.9221301</MDI>
+          <MDI key="STATISTICS_MINIMUM">30</MDI>
+          <MDI key="STATISTICS_STDDEV">2090856.3196202</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//Terrain/Terrain.dem_raster_30m/0/Perimeter">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="File_Type">HEC Terrain</MDI>
+        <MDI key="Projection">PROJCS["WGS_1984_UTM_Zone_14N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-99.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</MDI>
+        <MDI key="Terrain_GUID">3e8cc69c-8cf1-4e5e-9822-701adc1c90a8</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Maximum_Cell-Value">571.9921875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Mean">485.877877183377</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Minimum_Cell-Value">344.46875</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_0_Standard_Deviation">35.0121708910998</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Maximum_Cell-Value">571.65234375</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Mean">485.871761661099</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Minimum_Cell-Value">344.485687255859</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_1_Standard_Deviation">35.0025512438387</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Maximum_Cell-Value">570.107604980469</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Mean">485.85110966831</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Minimum_Cell-Value">357.705871582031</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_2_Standard_Deviation">34.9861471464408</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Maximum_Cell-Value">569.358947753906</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Mean">485.810273469767</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Minimum_Cell-Value">379.680694580078</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_3_Standard_Deviation">34.9571207497534</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Maximum_Cell-Value">566.706665039062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Mean">485.730668922465</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Minimum_Cell-Value">383.511352539062</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_4_Standard_Deviation">34.9029159539265</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File">Terrain.dem_raster_30m.tif</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Creation">2025Nov18 23:31:37</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Access">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_File_Last-Write">2025Nov18 23:31:40</MDI>
+        <MDI key="Terrain_Terrain.dem_raster_30m_Priority">0</MDI>
+        <MDI key="Version">1.2</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="Description">The Nth row of data represents the perimeter of the Nth tile for this dataset. This row will be a list of float values of length [Tile-Height + Tile-Width + 1]. It will be arranged like this: [Right Edge, Bottom Edge, Lower-Right Corner].</MDI>
+          <MDI key="STATISTICS_MAXIMUM">569.5390625</MDI>
+          <MDI key="STATISTICS_MEAN">-949.3636791088</MDI>
+          <MDI key="STATISTICS_MINIMUM">-9999</MDI>
+          <MDI key="STATISTICS_STDDEV">3603.408230349</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
